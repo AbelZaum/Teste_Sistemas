@@ -131,3 +131,21 @@ Relatórios de incidentes detalham as falhas ou defeitos encontrados durante os 
 
 ## 11.6 Relatório de Resumo de Teste
 Este documento resume as atividades de teste realizadas e os principais resultados obtidos. Ele fornece uma visão geral de todo o processo de teste, incluindo métricas de sucesso e falha, uma análise dos riscos mitigados e recomendações para melhorias futuras.
+
+# 15. Responsabilidades
+
+## Função	Responsável	Responsabilidades
+Gerente de Teste	# [Inserir Nome] #	- Coordenar o planejamento e a execução dos testes do sistema de controle de EPIs.
+- Garantir que todos os requisitos de teste sejam cobertos.
+- Monitorar o progresso dos testes e relatar status à gerência.
+- Facilitar a comunicação entre as equipes de desenvolvimento e teste.
+- Revisar e aprovar os casos de teste e relatórios de teste.
+
+Testador	# [Inserir Nome] #	- Executar os testes conforme os casos de teste definidos.
+
+- Registrar e acompanhar os resultados dos testes, incluindo falhas e incidentes.
+- Reportar problemas encontrados e colaborar na resolução.
+- Validar as correções realizadas após as falhas.
+- Fornecer feedback sobre a usabilidade e funcionalidade do sistema.
+
+
