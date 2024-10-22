@@ -99,6 +99,24 @@ Prioridade: Alta
 
    Motivo: Não é parte do escopo inicial.
 
+###  8. Abordagem (Estratégia)
+## 8.1 Tipos de Teste
+Teste Unitário
+Teste de Integração
+Teste de Sistema
+Teste de Aceitação do Usuário (UAT)
+## 8.2 Ferramentas de Teste
+Ferramenta	Versão	Propósito
+JUnit	5.8	Testes unitários
+Selenium	4.0	Testes de integração
+## 8.3 Critérios de Entrada e Saída
+
+## Critérios de Entrada:
+Todos os requisitos devem estar documentados e aprovados.
+
+## Critérios de Saída:
+Todos os testes devem ser executados e documentados com resultados satisfatórios.
+
 
 # 9. Critérios de Aprovação/Reprovação de Item
 ## 9.1 Critérios de Aprovação
