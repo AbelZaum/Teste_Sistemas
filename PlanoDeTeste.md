@@ -4,12 +4,17 @@
 # 1. Identificador do Plano de Teste
 
 ### Identificador: [TPT-2024-002]
+1. Identificador do Plano de Teste
+
+Identificador: [TPT-2024-002]
 
 TPT: Plano de Teste
 
 2024: Ano atual
 
 ### 002: Número sequencial do plano
+
+002: Número sequencial do plano
 
 Versão: [1.2]
 
