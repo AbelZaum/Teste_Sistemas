@@ -1,21 +1,15 @@
 # Plano de Testes da Situação de Aprendizagem - 4° Semestre
 ### Gabriel Abel da Silva, Bruno Silva, Leonardo da Rosa e Nicolas.
 
-
 # 1. Identificador do Plano de Teste
 
 ### Identificador: [TPT-2024-002]
-1. Identificador do Plano de Teste
-
-Identificador: [TPT-2024-002]
 
 TPT: Plano de Teste
 
 2024: Ano atual
 
 ### 002: Número sequencial do plano
-
-002: Número sequencial do plano
 
 Versão: [1.2]
 
@@ -89,10 +83,6 @@ Notas ou observações relevantes serão destacadas com um ícone de alerta ou s
 
  ### F001: Cadastro de Colaboradores
 
-6. Funcionalidades a Serem Testadas
-
-F001: Cadastro de Colaboradores
-
 Descrição: Funcionalidade para registro de novos colaboradores.
 
 Prioridade: Alta
@@ -103,15 +93,29 @@ Descrição: Funcionalidade que registra a devolução dos EPIs pelos colaborado
 
 Prioridade: Alta
 
-
 ### 7. Funcionalidades que Não Serão Testadas
-
-7. Funcionalidades que Não Serão Testadas
 
    NF001: Funcionalidade de Exportação de Dados
 
    Motivo: Não é parte do escopo inicial.
 
+###  8. Abordagem (Estratégia)
+## 8.1 Tipos de Teste
+Teste Unitário
+Teste de Integração
+Teste de Sistema
+Teste de Aceitação do Usuário (UAT)
+## 8.2 Ferramentas de Teste
+Ferramenta	Versão	Propósito
+JUnit	5.8	Testes unitários
+Selenium	4.0	Testes de integração
+## 8.3 Critérios de Entrada e Saída
+
+## Critérios de Entrada:
+Todos os requisitos devem estar documentados e aprovados.
+
+## Critérios de Saída:
+Todos os testes devem ser executados e documentados com resultados satisfatórios.
 
 
 # 9. Critérios de Aprovação/Reprovação de Item
