@@ -1,6 +1,9 @@
 # Plano de Testes da Situação de Aprendizagem - 4° Semestre
 ### Gabriel Abel da Silva, Bruno Silva, Leonardo da Rosa e Nicolas.
 
+# 1. Identificador do Plano de Teste
+
+### Identificador: [TPT-2024-002]
 1. Identificador do Plano de Teste
 
 Identificador: [TPT-2024-002]
@@ -8,6 +11,8 @@ Identificador: [TPT-2024-002]
 TPT: Plano de Teste
 
 2024: Ano atual
+
+### 002: Número sequencial do plano
 
 002: Número sequencial do plano
 
@@ -45,6 +50,39 @@ Este documento é direcionado aos seguintes públicos:
 * **Gerenciamento do Projeto:** Para acompanhar o progresso dos testes e tomar decisões baseadas nos resultados.
 * **Usuários Finais:** Para que tenham conhecimento das funcionalidades do sistema e de seus níveis de qualidade.
 
+#### 3.4 Convenções do Documento
+
+Este documento segue algumas convenções de formatação e nomenclatura para garantir clareza, consistência e fácil compreensão. A seguir estão as principais convenções adotadas:
+
+* Estrutura de Títulos e Subtítulos:
+Os títulos de seções e subseções seguem uma numeração hierárquica, com títulos de seção numerados como "3", "3.1", "3.2", etc. Eles são formatados em negrito para destacá-los.
+
+* Negrito:
+É utilizado para destacar termos importantes, como nomes de funcionalidades ou títulos de seções. Exemplo: Cadastro de EPIs, Gerenciamento de Estoque.
+
+* Itálico:
+Utilizado para destacar termos técnicos, siglas, ou componentes específicos do sistema, como EPI (Equipamento de Proteção Individual) ou SGE (Sistema de Gestão de EPIs).
+
+* Listas Numeradas e com Marcadores:
+
+Listas numeradas são usadas quando a ordem de execução ou priorização dos itens é relevante. Exemplo:
+Cadastro de EPIs
+Atribuição de EPIs
+Listas com marcadores são usadas para descrever funcionalidades ou itens sem uma ordem específica. Exemplo:
+Geração de Relatórios
+Notificações de validade
+Abreviações e Siglas:
+As siglas e abreviações são descritas por extenso na primeira vez que aparecem no documento, seguidas pela sigla entre parênteses. Exemplo: Equipamento de Proteção Individual (EPI).
+
+* Cores e Destaques Visuais:
+Caso haja a necessidade de destacar algum texto de maneira visual, serão utilizados elementos como caixas de alerta, ícones de nota ou cor de fundo para enfatizar informações adicionais ou críticas.
+
+* Referências a Documentos Externos:
+Quando houver menções a outros documentos ou normas, será usado o formato de citação direta, entre colchetes. Exemplo: [ISO 45001] ou [Manual de Procedimentos Internos].
+
+* Notas e Observações:
+Notas ou observações relevantes serão destacadas com um ícone de alerta ou símbolo de nota, geralmente em uma caixa de texto em itálico, para indicar informações adicionais, advertências ou recomendações.
+
 
 # 6. Funcionalidades a Serem Testadas
 
@@ -77,3 +115,24 @@ Cumprimento dos Requisitos: O item deve satisfazer todos os requisitos funcionai
 Um item de teste será reprovado se qualquer um dos seguintes cenários ocorrer:
 
 Falha nos Testes: O item não passou em um ou mais casos de teste importantes, especialmente aqueles relacionados à sua funcionalidade crítica. Defeitos Críticos ou Bloqueadores: A presença de defeitos que comprometem o funcionamento do sistema de forma crítica ou bloqueiam o uso da funcionalidade. Desempenho Insatisfatório: O item apresenta desempenho fora dos padrões estabelecidos ou falha em atender aos requisitos de tempo de resposta e estabilidade. Inconsistências com os Requisitos: O item não cumpre os requisitos especificados, incluindo funcionalidades principais e requisitos de segurança ou de usabilidade. Não-Conformidade com Padrões: O item não está em conformidade com as normas e padrões de qualidade exigidos para o projeto.
+
+# 11. Entregáveis de Teste
+    Os entregáveis de teste são documentos e relatórios que fornecem evidências das atividades de teste realizadas durante o ciclo de desenvolvimento. Eles são fundamentais para assegurar que os requisitos e objetivos dos testes foram cumpridos.
+
+## 11.1 Plano de Teste
+Documento que descreve detalhadamente o escopo, a abordagem, os recursos e o cronograma das atividades de teste. O Plano de Teste também inclui critérios de entrada e saída, além dos riscos identificados e estratégias de mitigação.
+
+## 11.2 Especificações de Caso de Teste
+Esses documentos contêm as descrições dos casos de teste que serão executados. Cada especificação de caso de teste inclui as condições iniciais, os passos de execução, os resultados esperados e os critérios de aceitação.
+
+## 11.3 Conjuntos de Dados de Teste
+Os dados de teste são conjuntos de informações ou parâmetros que serão usados durante a execução dos casos de teste. Esses conjuntos são preparados para garantir que os testes sejam representativos das condições reais de uso do sistema.
+
+## 11.4 Relatórios de Execução de Teste
+Esses relatórios documentam os resultados de cada execução de teste, destacando os casos que foram bem-sucedidos, os que falharam e quaisquer anomalias encontradas. Eles incluem informações como o número de casos de teste executados, status dos testes (aprovados/reprovados) e métricas de desempenho.
+
+## 11.5 Relatórios de Incidentes
+Relatórios de incidentes detalham as falhas ou defeitos encontrados durante os testes. Cada relatório contém uma descrição do incidente, o impacto no sistema, a probabilidade de ocorrência e as recomendações para correção.
+
+## 11.6 Relatório de Resumo de Teste
+Este documento resume as atividades de teste realizadas e os principais resultados obtidos. Ele fornece uma visão geral de todo o processo de teste, incluindo métricas de sucesso e falha, uma análise dos riscos mitigados e recomendações para melhorias futuras.
