@@ -19,3 +19,24 @@ Defeitos Críticos ou Bloqueadores: A presença de defeitos que comprometem o fu
 Desempenho Insatisfatório: O item apresenta desempenho fora dos padrões estabelecidos ou falha em atender aos requisitos de tempo de resposta e estabilidade.
 Inconsistências com os Requisitos: O item não cumpre os requisitos especificados, incluindo funcionalidades principais e requisitos de segurança ou de usabilidade.
 Não-Conformidade com Padrões: O item não está em conformidade com as normas e padrões de qualidade exigidos para o projeto.
+
+# 11. Entregáveis de Teste
+    Os entregáveis de teste são documentos e relatórios que fornecem evidências das atividades de teste realizadas durante o ciclo de desenvolvimento. Eles são fundamentais para assegurar que os requisitos e objetivos dos testes foram cumpridos.
+
+## 11.1 Plano de Teste
+Documento que descreve detalhadamente o escopo, a abordagem, os recursos e o cronograma das atividades de teste. O Plano de Teste também inclui critérios de entrada e saída, além dos riscos identificados e estratégias de mitigação.
+
+## 11.2 Especificações de Caso de Teste
+Esses documentos contêm as descrições dos casos de teste que serão executados. Cada especificação de caso de teste inclui as condições iniciais, os passos de execução, os resultados esperados e os critérios de aceitação.
+
+## 11.3 Conjuntos de Dados de Teste
+Os dados de teste são conjuntos de informações ou parâmetros que serão usados durante a execução dos casos de teste. Esses conjuntos são preparados para garantir que os testes sejam representativos das condições reais de uso do sistema.
+
+## 11.4 Relatórios de Execução de Teste
+Esses relatórios documentam os resultados de cada execução de teste, destacando os casos que foram bem-sucedidos, os que falharam e quaisquer anomalias encontradas. Eles incluem informações como o número de casos de teste executados, status dos testes (aprovados/reprovados) e métricas de desempenho.
+
+## 11.5 Relatórios de Incidentes
+Relatórios de incidentes detalham as falhas ou defeitos encontrados durante os testes. Cada relatório contém uma descrição do incidente, o impacto no sistema, a probabilidade de ocorrência e as recomendações para correção.
+
+## 11.6 Relatório de Resumo de Teste
+Este documento resume as atividades de teste realizadas e os principais resultados obtidos. Ele fornece uma visão geral de todo o processo de teste, incluindo métricas de sucesso e falha, uma análise dos riscos mitigados e recomendações para melhorias futuras.
