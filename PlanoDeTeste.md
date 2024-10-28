@@ -40,3 +40,21 @@ Relatórios de incidentes detalham as falhas ou defeitos encontrados durante os 
 
 ## 11.6 Relatório de Resumo de Teste
 Este documento resume as atividades de teste realizadas e os principais resultados obtidos. Ele fornece uma visão geral de todo o processo de teste, incluindo métricas de sucesso e falha, uma análise dos riscos mitigados e recomendações para melhorias futuras.
+
+# Tópico 16 - Cronograma
+
+|Fase         |Data de Início|Data de Término|Duração|
+|:------------|:------------:|:-------------:|------:|
+|Planejamento |DD/MM/AAAA    |DD/MM/AAAA     |X dias |
+|Preparação   |DD/MM/AAAA    |DD/MM/AAAA     |X dias |
+|Execução     |DD/MM/AAAA    |DD/MM/AAAA     |X dias |
+|Avaliação    |DD/MM/AAAA    |DD/MM/AAAA     |X dias |
+
+# Tópico 18 - Aprovações
+
+|Função                |Nome              |Assinatura          |Data       |
+|:---------------------|:----------------:|:-------------------:|----------:|
+|Gerente de Projeto    |Nome do Gerente   |____________________|DD/MM/AAAA |
+|Gerente de QA         |Nome do Gerente QA|____________________|DD/MM/AAAA |
+|Cliente/Stakeholder   |Nome do Cliente   |____________________|DD/MM/AAAA |
+
