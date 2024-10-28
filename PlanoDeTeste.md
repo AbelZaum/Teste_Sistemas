@@ -76,7 +76,7 @@ Descrição: Funcionalidade que registra a devolução dos EPIs pelos colaborado
 
 Prioridade: Alta
 
-### 7. Funcionalidades que Não Serão Testadas
+# 7. Funcionalidades que Não Serão Testadas
 
    NF001: Funcionalidade de Exportação de Dados
 
