@@ -19,33 +19,16 @@ Versão: [1.2]
 
 # 3. Introdução
 
-#### 3.1 Objetivo do Documento
+### 3.1 Objetivo do Documento
+Este plano de testes visa garantir que o sistema de gerenciamento de Equipamentos de Proteção Individual (EPIs) atenda aos requisitos funcionais e de segurança exigidos pela empresa. Seguindo o padrão IEEE 829, documentaremos todos os procedimentos de teste para assegurar que os colaboradores utilizem os EPIs conforme as normas, promovendo um ambiente de trabalho seguro.
 
-Este documento tem como objetivo definir a estratégia, os procedimentos e os critérios para a execução dos testes do sistema de gestão de EPIs.
-O plano detalha os testes a serem realizados para garantir que o sistema atenda aos requisitos funcionais e não-funcionais estabelecidos,
-assegurando sua qualidade e confiabilidade antes de sua implantação.
+### 3.2 Escopo do Projeto
+O escopo abrange o sistema de controle de EPIs, incluindo cadastro, empréstimo, devolução e gerenciamento de estoque. Testes de interface e funcionalidade são aplicados para validar operações críticas, como autenticação, controle de estoque e rastreamento de devoluções.
 
-#### 3.2 Escopo do Projeto
+### 3.3 Público-Alvo
+Este documento destina-se à equipe de desenvolvimento, testadores e stakeholders, com foco em garantir que todos compreendam os objetivos e métodos de teste utilizados para validar o sistema de controle de EPIs.
 
-O sistema de gestão de EPIs tem como propósito centralizar o controle e o acompanhamento de todos os equipamentos de proteção individual utilizados pela empresa.
-O sistema abrangerá as seguintes funcionalidades:
-
-* **Cadastro de EPIs:** Registro detalhado de cada tipo de EPI, incluindo suas características técnicas, fornecedor, data de validade, etc.
-* **Gerenciamento de Estoque:** Controle dos níveis de estoque de cada EPI, incluindo entradas, saídas e movimentações internas.
-* **Atribuição de EPIs:** Vinculação de EPIs aos colaboradores, considerando suas funções e riscos associados.
-* **Geração de Relatórios:** Criação de relatórios personalizados para acompanhar o uso, a manutenção e a necessidade de reposição dos EPIs.
-* **Notificações:** Emissão de alertas para datas de validade próximas, necessidade de manutenção ou falta de estoque de determinados EPIs.
-
-#### 3.3 Público-Alvo
-
-Este documento é direcionado aos seguintes públicos:
-
-* **Equipe de Desenvolvimento:** Para que compreendam os critérios de aceitação e as atividades de teste a serem realizadas.
-* **Equipe de Qualidade:** Para que planejem e executem os testes de acordo com as especificações.
-* **Gerenciamento do Projeto:** Para acompanhar o progresso dos testes e tomar decisões baseadas nos resultados.
-* **Usuários Finais:** Para que tenham conhecimento das funcionalidades do sistema e de seus níveis de qualidade.
-
-#### 3.4 Convenções do Documento
+### 3.4 Convenções do Documento
 
 Este documento segue algumas convenções de formatação e nomenclatura para garantir clareza, consistência e fácil compreensão. A seguir estão as principais convenções adotadas:
 
@@ -99,35 +82,82 @@ Prioridade: Alta
 
    Motivo: Não é parte do escopo inicial.
 
+#  8. Abordagem (Estratégia)
+### 8.1 Tipos de Teste
+Teste Unitário
+Teste de Integração
+Teste de Sistema
+Teste de Aceitação do Usuário (UAT)
+### 8.2 Ferramentas de Teste
+Ferramenta	Versão	Propósito
+JUnit	5.8	Testes unitários
+Selenium	4.0	Testes de integração
+### 8.3 Critérios de Entrada e Saída
+
+### Critérios de Entrada:
+Todos os requisitos devem estar documentados e aprovados.
+
+### Critérios de Saída:
+Todos os testes devem ser executados e documentados com resultados satisfatórios.
 
 # 9. Critérios de Aprovação/Reprovação de Item
-## 9.1 Critérios de Aprovação
-Para que um item de teste seja aprovado, ele deve atender a todos os seguintes critérios:
+### 9.1 Critérios de Aprovação
+Para aprovação, o item de teste deve:
 
-Cumprimento dos Requisitos: O item deve satisfazer todos os requisitos funcionais e não funcionais definidos na especificação de requisitos. Ausência de Defeitos Críticos: O item deve estar livre de defeitos críticos que impeçam a sua funcionalidade principal. Resultados dos Testes: O item deve passar com sucesso em todos os casos de teste relevantes, sem apresentar falhas em funcionalidades essenciais. Performance e Confiabilidade: O desempenho do item deve estar dentro dos limites aceitáveis e ele deve demonstrar confiabilidade em cenários de uso prolongado. Conformidade com Padrões: O item deve estar em conformidade com as normas e padrões de qualidade definidos, como segurança, acessibilidade, e desempenho.
+Atender aos requisitos funcionais e de segurança de EPI.
+Passar em testes de autenticação e verificação de estoque sem erros.
+Ter seu desempenho avaliado e aprovado em situações reais de uso.
+Conformidade com normas de segurança e confiabilidade no controle de EPIs.
+### 9.2 Critérios de Reprovação
+Um item será reprovado se:
 
-## 9.2 Critérios de Reprovação
-Um item de teste será reprovado se qualquer um dos seguintes cenários ocorrer:
-
-Falha nos Testes: O item não passou em um ou mais casos de teste importantes, especialmente aqueles relacionados à sua funcionalidade crítica. Defeitos Críticos ou Bloqueadores: A presença de defeitos que comprometem o funcionamento do sistema de forma crítica ou bloqueiam o uso da funcionalidade. Desempenho Insatisfatório: O item apresenta desempenho fora dos padrões estabelecidos ou falha em atender aos requisitos de tempo de resposta e estabilidade. Inconsistências com os Requisitos: O item não cumpre os requisitos especificados, incluindo funcionalidades principais e requisitos de segurança ou de usabilidade. Não-Conformidade com Padrões: O item não está em conformidade com as normas e padrões de qualidade exigidos para o projeto.
+Falhar nos testes de funcionalidade crítica (ex. controle de estoque).
+Apresentar defeitos que comprometam a segurança ou rastreamento de EPIs.
+Não atender às normas de controle de EPI e segurança estabelecidas.
+Apresentar inconsistências de desempenho ou falha no controle de acesso.
 
 # 11. Entregáveis de Teste
     Os entregáveis de teste são documentos e relatórios que fornecem evidências das atividades de teste realizadas durante o ciclo de desenvolvimento. Eles são fundamentais para assegurar que os requisitos e objetivos dos testes foram cumpridos.
 
-## 11.1 Plano de Teste
-Documento que descreve detalhadamente o escopo, a abordagem, os recursos e o cronograma das atividades de teste. O Plano de Teste também inclui critérios de entrada e saída, além dos riscos identificados e estratégias de mitigação.
+### 11.1 Plano de Teste
+Documento com o planejamento detalhado para teste de todas as funcionalidades do sistema de gerenciamento de EPIs.
 
-## 11.2 Especificações de Caso de Teste
-Esses documentos contêm as descrições dos casos de teste que serão executados. Cada especificação de caso de teste inclui as condições iniciais, os passos de execução, os resultados esperados e os critérios de aceitação.
+### 11.2 Especificações de Caso de Teste
+Descreve os passos e resultados esperados para cada caso de teste específico, garantindo a validação de funcionalidades críticas, como controle de estoque e cadastro de equipamentos.
 
-## 11.3 Conjuntos de Dados de Teste
-Os dados de teste são conjuntos de informações ou parâmetros que serão usados durante a execução dos casos de teste. Esses conjuntos são preparados para garantir que os testes sejam representativos das condições reais de uso do sistema.
+### 11.3 Conjuntos de Dados de Teste
+Dados específicos para simular condições reais de uso, como diferentes estados de estoque e combinações de equipamentos e colaboradores.
 
-## 11.4 Relatórios de Execução de Teste
-Esses relatórios documentam os resultados de cada execução de teste, destacando os casos que foram bem-sucedidos, os que falharam e quaisquer anomalias encontradas. Eles incluem informações como o número de casos de teste executados, status dos testes (aprovados/reprovados) e métricas de desempenho.
+### 11.4 Relatórios de Execução de Teste
+Relatórios que documentam os resultados de cada execução, com detalhes sobre casos aprovados e reprovados.
 
-## 11.5 Relatórios de Incidentes
-Relatórios de incidentes detalham as falhas ou defeitos encontrados durante os testes. Cada relatório contém uma descrição do incidente, o impacto no sistema, a probabilidade de ocorrência e as recomendações para correção.
+### 11.5 Relatórios de Incidentes
+Relatórios sobre falhas identificadas, incluindo descrição, impacto e solução proposta.
 
-## 11.6 Relatório de Resumo de Teste
-Este documento resume as atividades de teste realizadas e os principais resultados obtidos. Ele fornece uma visão geral de todo o processo de teste, incluindo métricas de sucesso e falha, uma análise dos riscos mitigados e recomendações para melhorias futuras.
+### 11.6 Relatório de Resumo de Teste
+Sumário final de todos os testes executados, destacando métricas de sucesso e falha e recomendações.
+
+# 15. Responsabilidades
+
+|Função|Responsável|Responsabilidades|
+|:---|:---:|---:|
+|Gerente de Teste|Nome do Gerente|Planejamento e coordenação das atividades de teste, supervisão da equipe, conformidade com o plano e aprovação final.|
+|Testadores|Nome dos Testadores|Execução dos casos de teste, identificação de incidentes, verificação de funcionalidades e validação de segurança.|
+|Analistas de Qualidade|Nome dos Analistas|Revisão dos entregáveis, validação de requisitos de segurança e funcionalidade, e garantia de conformidade.|
+
+# 16. Cronograma
+
+|Fase         |Data de Início|Data de Término|Duração|
+|:------------|:------------:|:-------------:|------:|
+|Planejamento |DD/MM/AAAA    |DD/MM/AAAA     |X dias |
+|Preparação   |DD/MM/AAAA    |DD/MM/AAAA     |X dias |
+|Execução     |DD/MM/AAAA    |DD/MM/AAAA     |X dias |
+|Avaliação    |DD/MM/AAAA    |DD/MM/AAAA     |X dias |
+
+# 18. Aprovações
+
+|Função                |Nome              |Assinatura          |Data       |
+|:---------------------|:----------------:|:-------------------:|----------:|
+|Gerente de Projeto    |Nome do Gerente   |____________________|DD/MM/AAAA |
+|Gerente de QA         |Nome do Gerente QA|____________________|DD/MM/AAAA |
+|Cliente/Stakeholder   |Nome do Cliente   |____________________|DD/MM/AAAA |
