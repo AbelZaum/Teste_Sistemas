@@ -137,6 +137,32 @@ Relatórios sobre falhas identificadas, incluindo descrição, impacto e soluç�
 ### 11.6 Relatório de Resumo de Teste
 Sumário final de todos os testes executados, destacando métricas de sucesso e falha e recomendações.
 
+
+# 14. Necessidades de Pessoal e Treinamento
+## 14.1 Pessoal
+|--------------------------|-------------------------------------------------------------------------------------------------|-----------------|
+|	         Função          | 				                           Habilidades Necessárias                                          |Número de Pessoas|
+|:------------------------:|:-----------------------------------------------------------------------------------------------:|:---------------:|
+|Gerente de Teste 	        |Planejamento de testes, liderança, gerenciamento de riscos, comunicação eficaz    	              |	       1        |
+|Analista de Teste  	      |Criação e execução de casos de teste, conhecimento de ferramentas de teste, análise de requisitos|	       2        |   
+|Engenheiro de Automação   |Programação (Java, Python, etc.), ferramentas de automação (Selenium, JUnit), integração contínua|	       1        |    
+|Testador de Performance   |Conhecimento em ferramentas de performance (JMeter, LoadRunner), análise de performance          |	       1        |  
+|Administrador de Ambiente |Gerenciamento de ambientes de teste, configuração de rede, virtualização    		                   |	       1        |   
+|Especialista em Segurança |Conhecimento de segurança em software, teste de vulnerabilidades, análise de segurança   	       |	       1        |  
+|--------------------------|-------------------------------------------------------------------------------------------------|-----------------|
+ 
+## 14.2 Treinamento
+|---------------------------------------|---------------------------------------|---------|---------------|
+|               Treinamento             |               Público Alvo            | Duração | Data Prevista |
+|:-------------------------------------:|:-------------------------------------:|:-------:|:-------------:|
+|Introdução às Ferramentas de Automação |  Engenheiro de Automação              | 2 dias  |  DD/MM/AAAA   |
+|Fundamentos de Teste de Performance    |  Testador de Performance              | 3 dias  |  DD/MM/AAAA   |
+|Planejamento e Estratégia de Testes    |  Gerente de Teste, Analistas de Teste | 2 dias  |  DD/MM/AAAA   |
+|Testes de Segurança e Vulnerabilidade  |  Especialista em Segurança   	        | 2 dias  |  DD/MM/AAAA   |
+|Atualização em Metodologias Ágeis      |  Todos                                | 1 dia   |  DD/MM/AAAA   |
+|Gestão de Ambientes de Teste           |  Administrador de Ambiente            | 1 dia   |  DD/MM/AAAA   |
+|---------------------------------------|---------------------------------------|---------|---------------|
+
 # 15. Responsabilidades
 
 |Função|Responsável|Responsabilidades|
