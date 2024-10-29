@@ -136,3 +136,12 @@ Relatórios de incidentes detalham as falhas ou defeitos encontrados durante os 
 
 ## 11.6 Relatório de Resumo de Teste
 Este documento resume as atividades de teste realizadas e os principais resultados obtidos. Ele fornece uma visão geral de todo o processo de teste, incluindo métricas de sucesso e falha, uma análise dos riscos mitigados e recomendações para melhorias futuras.
+
+# 17. Riscos de Planejamento e Contingências
+
+| Risco | Probabilidade | Impacto | Estratégia de Mitigação | Plano de Contingência |
+|---|---|---|---|---|
+| Atraso na entrega de um componente | Média | Alto | Comunicação constante com o fornecedor, acompanhamento do cronograma | Utilizar componentes alternativos, ajustar o escopo do teste |
+| Falta de recursos de teste (pessoas, ferramentas) | Média | Médio | Solicitar recursos com antecedência, otimizar os testes | Priorizar os testes críticos, redistribuir a equipe |
+| Mudanças de requisitos durante a fase de testes | Alta | Alto | Processo de controle de mudanças bem definido, comunicação constante com o cliente | Realizar testes de regressão, ajustar o plano de testes |
+| Defeitos críticos encontrados nos estágios finais do projeto | Alta | Alto | Revisão rigorosa dos requisitos, testes de integração contínua | Criar um processo de escalonamento rápido para defeitos críticos, realizar testes de fumaça diariamente |
