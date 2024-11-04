@@ -137,10 +137,27 @@ Relatórios de incidentes detalham as falhas ou defeitos encontrados durante os 
 ## 11.6 Relatório de Resumo de Teste
 Este documento resume as atividades de teste realizadas e os principais resultados obtidos. Ele fornece uma visão geral de todo o processo de teste, incluindo métricas de sucesso e falha, uma análise dos riscos mitigados e recomendações para melhorias futuras.
 
+## 14. Necessidades de Pessoal e Treinamento
+
+### 14.1 Pessoal
+
+| Função | Habilidades Necessárias | Número de Pessoas |
+
+| Analista de Testes | Conhecimento em testes de software, experiência em ferramentas de teste, familiaridade com o sistema de gerenciamento de EPIs, conhecimento em normas de segurança | 2 |
+| Técnico de TI | Conhecimento em infraestrutura de TI, experiência em configuração de ambientes de teste, habilidades em scripting | 1 |
+
+### 14.2 Treinamento
+
+| Treinamento | Público-Alvo | Duração | Data Prevista |
+
+| Introdução ao Sistema de Gerenciamento de EPIs | Analistas de Testes, Técnico de TI | 4 horas | 01/02/2024 |
+| Técnicas de Teste de Software | Analistas de Testes | 8 horas | 15/02/2024 |
+| Normas de Segurança e Regulamentações | Todos os envolvidos nos testes | 2 horas | 28/02/2024 |
+
 # 17. Riscos de Planejamento e Contingências
 
 | Risco | Probabilidade | Impacto | Estratégia de Mitigação | Plano de Contingência |
-|---|---|---|---|---|
+
 | Atraso na entrega de um componente | Média | Alto | Comunicação constante com o fornecedor, acompanhamento do cronograma | Utilizar componentes alternativos, ajustar o escopo do teste |
 | Falta de recursos de teste (pessoas, ferramentas) | Média | Médio | Solicitar recursos com antecedência, otimizar os testes | Priorizar os testes críticos, redistribuir a equipe |
 | Mudanças de requisitos durante a fase de testes | Alta | Alto | Processo de controle de mudanças bem definido, comunicação constante com o cliente | Realizar testes de regressão, ajustar o plano de testes |
